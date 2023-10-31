@@ -11,4 +11,4 @@ Link al projecte de figma:
 https://www.figma.com/file/Ij9RI0guvHegGT0GUS35CX/Curriculum?type=design&node-id=0%3A1&mode=dev
 
 Public link:
-celsesteva.github.io
+https://celsesteva.github.io
