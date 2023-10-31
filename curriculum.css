@@ -1,0 +1,304 @@
+
+#dadesPersona {
+    height: 100vh;
+    max-width: 440px;
+    background-color: #E7E7E7;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+body {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    background-color: lightgrey;
+    margin: 0px;
+}
+
+
+#imgPersona {
+    border-radius: 100%;
+    width: 330px;
+    height: 330px;
+    margin: 55px 0px 0px 0px;
+    border: 0;
+    padding: 0;
+}
+
+#posicioImg{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#dadesPersonals{
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+    margin-right: 31px;
+    
+}
+
+contingut nom p{
+    color: #0E5484;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+info{
+    display: flex;
+    flex-direction: column;
+}
+
+birth, localitat, telefon, adress{
+    display: flex;
+    flex-direction: row;
+    margin: -6px 0 -6px 0;
+    align-items: center;
+}
+
+.info{
+    margin-left: 20px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.simbolExclamacio{
+    position: relative;
+    margin-left: -24px;
+    top: 0.4px;
+    color: #FFFFFF;
+}
+
+.simbolMail{
+    top: 18px;
+    right: 0.66px;
+    position: relative;
+    margin-left: -24px;
+    color: #FFFFFF;
+}
+
+.simbolTelefon{
+    position: relative;
+    margin-left: -24px;
+    bottom: 17px;
+    right: 1px;
+    color: #FFFFFF;
+}
+
+.arrova{
+    position: relative;
+    margin-left: -24px;
+    bottom: 1.8px;
+    right: 1.2px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titols{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+titolsobremi, titolskills {
+    display: flex;
+}
+
+
+line {
+    background-color: #333333;
+    z-index: 3;
+    min-width: 1px;
+    height: 3px;
+    margin-top: 47px;
+    margin-left: 25px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+sobremi contingut{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+habilitat p{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+habilitat {
+    display: flex;
+    /*flex-wrap: wrap-reverse;*/
+    flex-direction: column;
+}
+
+barraHabilitat {
+    background: #AFAFAF;
+    width: 355px;
+    height: 20px;
+    margin-left:  8px;
+    display: flex;
+    z-index: 0;
+    
+}
+
+columnaGran {
+    align-self: flex-end;
+    width: 2px;
+    height: 10px;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+
+columnaPetita {
+    align-self: flex-end;
+    width: 2px;
+    height: 5px;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+
+marge {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+barraNivellHabilitat{
+    position: absolute;
+    height: 20px;
+    background-color: #0E5484;
+    z-index: 1;
+}
+
+.nivell1{width: 299px;}
+.nivell2{width: 186px;}
+.nivell3{width: 83px;}
+.nivell4{width: 59px;}
+.nivell5{width: 21px;}
+
+#continguts {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    flex-grow: 1;
+    background-color: white;
+    height: 100vh;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding-left: 7px;
+}
+
+
+#carrera{
+    color: #4D4D4D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+resaltatGris{
+    background-color: #B9B9B9;
+    border-radius: 7px;
+    color: white;
+}
+
+resaltatBlau{
+    background-color: #0E5484;
+    border-radius: 7px;
+    color: white;
+}
+
+text {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+#margeCarrera {
+    margin-left: 41px;
+}
+
+place {
+    align-self: flex-start;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #333333;
+}
+
+data {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    border: 0px;
+    margin-right: 30px;
+    justify-content: flex-start;
+    max-width: 93px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.contingutEducacio {
+    max-width: 362px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.educacio{
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#separat{
+    margin-top: 21px;
+}
+
+.contingutExperiencia {
+    max-width: 741px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+lightGray{
+    color: #555555;
+}
+
+.altreInformacioText{
+    max-width: 864px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+barraHabilitat {
+    margin-bottom: 10px;    
+}

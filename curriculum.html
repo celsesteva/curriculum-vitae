@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="curriculum.css">
+        <title>Curriculum vitae</title>
+    </head>
+    <body>
+        <div id="dadesPersona">
+            <pos id="posicioImg"> 
+                <img id="imgPersona" src="https://i.pinimg.com/originals/0f/ce/6b/0fce6bea79d21349d5708f7c7aeaf76c.png" alt="imatge de persona">
+            </pos>
+
+            <contingut id="dadesPersonals">
+                <nom>
+                    <p>Joan</p>
+                </nom>
+
+                <info>
+
+                    <birth>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#0E5484"/>
+                        </svg>
+                        <svg class="simbolExclamacio" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <path d="M9.08789 18.1758C14.0713 18.1758 18.1846 14.0625 18.1846 9.08789C18.1846 4.11328 14.0625 0 9.0791 0C4.10449 0 0 4.11328 0 9.08789C0 14.0625 4.11328 18.1758 9.08789 18.1758ZM9.08789 16.3652C5.05371 16.3652 1.82812 13.1221 1.82812 9.08789C1.82812 5.05371 5.05371 1.81934 9.0791 1.81934C13.1133 1.81934 16.3564 5.05371 16.3652 9.08789C16.374 13.1221 13.1221 16.3652 9.08789 16.3652ZM9.0791 10.5469C9.5625 10.5469 9.84375 10.2744 9.85254 9.76465L9.98438 5.53711C10.002 5.01855 9.61523 4.64062 9.07031 4.64062C8.52539 4.64062 8.14746 5.00977 8.16504 5.52832L8.28809 9.76465C8.30566 10.2656 8.58691 10.5469 9.0791 10.5469ZM9.0791 13.4648C9.65039 13.4648 10.1162 13.0518 10.1162 12.4893C10.1162 11.9355 9.65918 11.5225 9.0791 11.5225C8.50781 11.5225 8.04199 11.9355 8.04199 12.4893C8.04199 13.043 8.5166 13.4648 9.0791 13.4648Z" fill="white"/>
+                        </svg>
+                        <p class="info">15 Febrer 2003</p>
+                    </birth>
+
+                    <localitat>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#0E5484"/>
+                        </svg>
+                        <svg class="simbolMail" xmlns="http://www.w3.org/2000/svg" width="20" height="52" viewBox="0 0 20 52" fill="none">
+                            <path d="M2.8916 15.4424H17.0684C18.7647 15.4424 19.749 14.458 19.749 12.5771V2.86523C19.749 0.984375 18.7559 0 16.8574 0H2.68066C0.984375 0 0 0.975586 0 2.86523V12.5771C0 14.458 0.993164 15.4424 2.8916 15.4424ZM8.88575 8.02441L2.4873 1.69629C2.61035 1.66992 2.75098 1.65234 2.90039 1.65234H16.8486C17.0068 1.65234 17.1475 1.66992 17.2793 1.70508L10.8897 8.02441C10.5205 8.38477 10.2129 8.54297 9.8877 8.54297C9.5625 8.54297 9.25489 8.37598 8.88575 8.02441ZM1.64355 2.98828L6.4248 7.69043L1.64355 12.4189V2.98828ZM13.3506 7.69043L18.1055 3.01465V12.4014L13.3506 7.69043ZM2.90039 13.7812C2.74219 13.7812 2.59277 13.7637 2.46094 13.7373L7.49707 8.74512L7.97168 9.21973C8.61328 9.84375 9.22852 10.1074 9.8877 10.1074C10.5381 10.1074 11.1621 9.84375 11.7949 9.21973L12.2783 8.74512L17.3057 13.7285C17.165 13.7637 17.0156 13.7812 16.8486 13.7812H2.90039Z" fill="white"/>
+                        </svg>
+
+                        <p class="info">Espanya</p>
+                    </localitat>
+
+                    <telefon>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#0E5484"/>
+                        </svg>
+                        <svg class="simbolTelefon" xmlns="http://www.w3.org/2000/svg" width="20" height="52" viewBox="0 0 20 52" fill="none">
+                            <path d="M14.6602 51.5C16.1982 51.5 17.2441 51.0605 18.1934 50.0322C18.2549 49.9619 18.3164 49.8828 18.3779 49.8125C18.8965 49.2324 19.1514 48.626 19.1514 48.0635C19.1514 47.4043 18.7998 46.8066 18.0176 46.2705L15.3984 44.4424C14.5723 43.8711 13.6143 43.8271 12.876 44.5654L12.2256 45.2158C11.9971 45.4443 11.7773 45.4619 11.5137 45.2773C11.0391 44.9609 10.1426 44.1699 9.52735 43.5547C8.90332 42.9307 8.27051 42.2275 7.92773 41.6914C7.74316 41.4189 7.76074 41.208 7.98926 40.9795L8.63965 40.3291C9.37793 39.5908 9.33399 38.6328 8.75391 37.8066L6.89062 35.1436C6.37207 34.3877 5.74805 34.0361 5.08887 34.0273C4.52637 34.0186 3.92871 34.2734 3.34863 34.7832C3.27832 34.8447 3.20801 34.9062 3.1377 34.9678C2.0918 35.9258 1.64355 36.9541 1.64355 38.5537C1.64355 41.1465 3.14648 44.2051 6.07324 47.1143C8.98242 50.0059 12.0059 51.5 14.6602 51.5ZM14.6602 50.0322C12.4189 50.0674 9.63281 48.4766 7.18945 46.0508C4.72852 43.625 3.09375 40.7334 3.12891 38.4922C3.14648 37.5518 3.48047 36.7256 4.13965 36.1455C4.20996 36.0928 4.2627 36.0488 4.33301 35.9961C4.5791 35.7852 4.84277 35.6709 5.08887 35.6709C5.34375 35.6709 5.57227 35.7764 5.74805 36.04L7.3916 38.5098C7.60254 38.8086 7.61133 39.1514 7.30371 39.4502L6.60059 40.1445C5.93262 40.7949 5.99414 41.5596 6.41602 42.1572C6.89062 42.8164 7.77832 43.8271 8.52539 44.5654C9.3252 45.3564 10.415 46.332 11.0479 46.7891C11.6455 47.2109 12.4102 47.2725 13.0606 46.6045L13.7549 45.9014C14.0449 45.5938 14.3877 45.6025 14.6953 45.8047L17.1211 47.4219C17.3936 47.5977 17.4902 47.8174 17.4902 48.0723C17.4902 48.3184 17.376 48.582 17.165 48.8369C17.1123 48.8984 17.0684 48.9512 17.0156 49.0215C16.4356 49.6895 15.6094 50.0234 14.6602 50.0322Z" fill="white"/>
+                        </svg>
+                        <p class="info">+34 626 14 35 28</p>
+                    </telefon>
+                    
+                    <adress>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <circle cx="15" cy="15" r="15" fill="#0E5484"/>
+                        </svg>
+                        <arrova>
+                            <text class="arrova">@</text>
+                        </arrova>
+                        <p class="info"> u1978909@campus.udg.edu</p>
+                    </adress>
+
+                </info>
+                
+                <sobremi>
+                    <titolsobremi>
+                        <p class="titols">Sobre mi</p>
+                        <line></line>
+                    </titolsobremi>
+                    <contingut>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Joan is from wealthy English family who finds himself in a strange world ruled by imag-ination and fantasy. Joan feels comfortable with her identity and has a strong sense that her environment is comprised of clear, logical, and consistent rules and features. Joan’s familiarity with the world has led one critic to describe him as a "disembodied intellect". Joan displays great curiosity and attempts to fit his diverse experiences into a clear understanding of the world.</p>
+                    </contingut>
+                </sobremi>
+
+
+                <skills>
+                    <titolskills>
+                        <p class="titols">Skills</p>
+                        <line></line>
+                    </titolskills>
+                    <habilitat>
+                        <p>Skill 1</p>
+                        <barraHabilitat>
+                            
+                            <barraNivellHabilitat class="nivell1"></barraNivellHabilitat>
+
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+
+                        </barraHabilitat>
+                    </habilitat>
+                    <habilitat>
+                        <p>Skill 2</p>
+                        <barraHabilitat>
+                            
+                            <barraNivellHabilitat class="nivell2"></barraNivellHabilitat>
+
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+
+                        </barraHabilitat>
+                    </habilitat>
+                    <habilitat>
+                        <p>Skill 3</p>
+                        <barraHabilitat>
+                            
+                            <barraNivellHabilitat class="nivell3"></barraNivellHabilitat>
+
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+
+                        </barraHabilitat>
+                    </habilitat>
+                    <habilitat>
+                        <p>Skill 4</p>
+                        <barraHabilitat>
+                            
+                            <barraNivellHabilitat class="nivell4"></barraNivellHabilitat>
+
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+
+                        </barraHabilitat>
+                    </habilitat>
+                    <habilitat>
+                        <p>Skill 5</p>
+                        <barraHabilitat>
+                            
+                            <barraNivellHabilitat class="nivell5"></barraNivellHabilitat>
+
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+                            <marge></marge>
+                            <columnaPetita></columnaPetita>
+                            <marge></marge>
+                            <columnaGran></columnaGran>
+
+                        </barraHabilitat>
+                    </habilitat>
+                </skills>
+
+            </contingut>
+
+        </div>
+        
+        
+        <div id="continguts">
+            <div>
+                <div id=carrera><resaltatGris>int</resaltatGris>erests</div>
+                <div id="margeCarrera"><text>The heroine and the dreamer of Wonderland; Joan is the principal character.</text></div>
+            </div>
+            <div>
+                <div id="carrera"><resaltatBlau>edu</resaltatBlau>cació</div>
+                <div id = margeCarrera>
+                    <div>
+                        <div class="educacio" id="separat">
+                            <data>sicne 2023</data>
+                            <text class="contingutEducacio"><lightGray>Ph.D. candidate in Computer Science. </lightGray><br> A Quantified Theory of Social Cohesion.</text>
+                            <marge></marge>
+                            <place>Wonderland</place>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="educacio" id="separat">
+                            <data>2021-2023</data>
+                            <text class="contingutEducacio"><lightGray>M.Sc. magna cum laude. </lightGray></br> Majoring in Computer Science. </text>
+                            <marge></marge>
+                            <place>Wonderland</place>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="educacio" id="separat">
+                            <data>2019-2021</data>
+                            <text class="contingutEducacio"><lightGray>B.Sc. magna cum laude. </lightGray></br> Majoring in Computer Science.</text>
+                            <marge></marge>
+                            <place>Wonderland</place>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="educacio" id="separat">
+                            <data>2003-2019</data>
+                            <text class="contingutEducacio"><lightGray>High school. </lightGray><br>Specializing in mathematics and physics.</text>
+                            <marge></marge>
+                            <place>Wonderland</place>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <div id=carrera><resaltatGris>pub</resaltatGris>licacions</div>
+                <div id = margeCarrera>
+                    <div>
+                        <div class="educacio">
+                            <data>2023</data>
+                            <text class="contingutEducacio"><lightGray>Chapter One, Down the Rabbit Hole.</lightGray></text>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="educacio">
+                            <data>2023</data>
+                            <text class="contingutEducacio"><lightGray>Chapter Two, The Pool of Tears.</lightGray></text>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="educacio">
+                            <data>2023</data>
+                            <text class="contingutEducacio"><lightGray>Chapter Three, The Caucus Race and a Long Tale.</lightGray></text>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="educacio">
+                            <data>2023</data>
+                            <text class="contingutEducacio"><lightGray>Chapter Four, The Rabbit Sends a Little Bill.</lightGray></text>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="educacio">
+                            <data>2023</data>
+                            <text class="contingutEducacio"><lightGray>Chapter Four, The Rabbit Sends a Little Bill.</lightGray></text>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <div id="carrera"><resaltatBlau>pre</resaltatBlau>mis</div>
+                <div id = margeCarrera>
+                        <div>
+                            <div class="educacio">
+                                <data>2025</data>
+                                <text class="contingutEducacio"><lightGray>All-Time Best Fantasy Novel.</lightGray></text>
+                            </div>
+                        </div>
+                    <div>
+                        <div class="educacio">
+                            <data>2026</data>
+                            <text class="contingutEducacio"><lightGray>All-Time Best Fantasy Novel before 1990.</lightGray></text>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <div id=carrera><resaltatGris>exp</resaltatGris>eriencia</div>
+                <div id = margeCarrera>
+                    <div class="educacio" id="separat">
+                        <data>2026</data>
+                        <text class="contingutExperiencia"><lightGray>Alice in Wonderland-The Circra (1900’s) Silent Film. </lightGray><br> The first Alice on film was over a hundred years ago.</text>
+                        <marge></marge>
+                        <place>Film</place>
+                    </div>
+
+                    <div class="educacio" id="separat">
+                        <data>1933</data>
+                        <text class="contingutExperiencia"><lightGray>Alice in Wonderland 1933 version. </lightGray><br> This film stars Ethel griffies and Charlotte Henry. It was a box office flopwhen it was released.</text>
+                        <marge></marge>
+                        <place>Film</place>
+                    </div>  
+
+                    <div class="educacio" id="separat">
+                        <data>1951</data>
+                        <text class="contingutExperiencia"> <lightGray> Disney Film. </lightGray><br>Walt Disney brings Lewis Carroll’s fantasy story to life in this well done an-imated classic. Even though many elements from the book were dropped,such as the duchess with the baby pig and mock turtle, this version iswithout a doubt the most famous Alice adaption made.</text>
+                        <marge></marge>
+                        <place>Film</place>
+                    </div>  
+
+                </div>
+            </div>
+
+
+
+            <div>
+                <div id=carrera><resaltatGris>alt</resaltatGris>re informació</div>
+                <div id = margeCarrera>
+                    <div class="altreInformacioText">
+                        <text>
+                            Alice approaches Wonderland as an anthropologist, but maintains a strong sense of no-blesse oblige that comes with her class status. She has confidence in her social posi-tion, education, and the Victorian virtue of good manners. Alice has a feeling of entitle-ment, particularly when comparing herself to Mabel, whom she declares has a “poky littlehouse,” and no toys. Additionally, she flaunts her limited information base with anyonewho will listen and becomes increasingly obsessed with the importance of good mannersas she deals with the rude creatures of Wonderland. Alice maintains a superior attitudeand behaves with solicitous indulgence toward those she believes are less privileged.
+                        </text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
